@@ -59,59 +59,6 @@
   font-weight: bolder;
 }
 
-@media screen and  (max-width:557px) {
-  .sticky {
-  position: fixed;
-  top: 40px;
-  right: 30px;
-  z-index: 3;
-}
-  .navcolor1 {
-  background-color: #D9AC75; /*#b69b4c*/ 
-  color: #49412c;
-  opacity: 0.8;
-    font-size: 3.5vw;
-    width: auto;
-}
-  .box-hunter {
-  background-color: #51513D;
-  padding: 6% 20px 4% 20px;
-  margin: 23% 15% 50px 15%;
-  text-align: center;
-  border-width: 10px;
-  border-style: groove;
-  border-color: #E6BB86; /*&rust #98434b*/
-  position: relative;
-}
-.about {
-  color: #78281F;
-  font-family: lobster;
-  font-size: 60px;
-  text-shadow: 2px 1px 4px black; 
-}
-
-  .woodframe {
-  margin: 10px 0px 10px 0px;
-  border: 20px solid #D79B59;
-    border-radius: 5%;
-  border-image: none;
-  -webkit-border-image: none;
-}
-  
-  .woodframe a {
-    margin: 0;
-  }
-  
-.subtitle {
-  position: absolute;
-  top: 9px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-weight: bolder;
-}
-
-}
 
 .tilt {
   Transform: rotate(-10deg); 
@@ -449,3 +396,101 @@ background:0 0 #D29A5A;
   #contact {
     position: relative;
   }
+
+@media screen and  (max-width:557px) {
+    .sticky {
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    z-index: 3;
+  }
+    .navcolor1 {
+    background-color: #D9AC75; /*#b69b4c*/ 
+    color: #49412c;
+    opacity: 0.8;
+      font-size: 3.5vw;
+      width: auto;
+  }
+    .box-hunter {
+    background-color: #51513D;
+    padding: 6% 20px 4% 20px;
+    margin: 23% 15% 50px 15%;
+    text-align: center;
+    border-width: 10px;
+    border-style: groove;
+    border-color: #E6BB86; /*&rust #98434b*/
+    position: relative;
+  }
+  .about {
+    color: #78281F;
+    font-family: lobster;
+    font-size: 60px;
+    text-shadow: 2px 1px 4px black; 
+  }
+
+    .woodframe {
+    margin: 10px 0px 10px 0px;
+    border: 20px solid #D79B59;
+      border-radius: 5%;
+    border-image: none;
+    -webkit-border-image: none;
+  }
+    
+    .woodframe a {
+      margin: 0;
+    }
+    
+  .subtitle {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+}
+
+@media (min-width: 1367px) and (min-height: 700px) {
+
+  .notepad-text {
+    margin: 0px 10% 0px 10%;
+    padding: 20px 20px 0px 20px;
+    max-width: 340px;
+    font-size: 20px;
+  }
+
+  .notepad-img {
+    max-width: 600px;
+  }
+
+  .coffee {
+    max-width: 600px;
+  }
+
+  .sticky {
+    top: 20px;
+    right: 50px;
+  }
+
+  .nav-pills {
+    font-size: 3vw;
+  }
+
+  .box-hunter {
+    margin: 7vw 15% 50px 15%;
+  }
+
+  .space1 {
+    padding: 40px;
+  }
+
+  .me {
+    font-size: 2vw;
+  }
+
+  .btn-default {
+    font-size: 2vw;
+  }
+
+}
